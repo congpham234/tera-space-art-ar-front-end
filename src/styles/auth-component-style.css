@@ -1,0 +1,100 @@
+
+.auth-login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: 'Poppins';
+    margin-right: -50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.auth-login-label {
+    display: block;
+    padding-top: 83px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: -0.5px;
+    text-align: center;
+}
+
+.auth-input-text {
+    margin-top: 40px;
+    width: 280px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #535353;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.auth-input-text::placeholder {
+    height: 17px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: -0.5px;
+    color: #000000;
+    overflow: visible;
+    line-height: 5px;
+}
+
+.auth-prompt-text {
+    display: block;
+    padding-top: 40px;
+}
+
+.auth-link {
+    color: #000000 !important;
+    font-weight: 600;
+}
+
+.auth-submit-btn {
+    margin-top: 40px;
+    background-color:#353231;
+    border:none;
+    color: white;
+    font-family: 'Poppins';
+    height: 45px;
+    width: 280px;
+    left: 0px;
+    top: 122px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.auth-error-text{
+    color: red
+}
+
+.auth-confirm-paragraph {
+    padding-bottom: 32px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.auth-confirm-resend-btn {
+    margin-top: 32px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    text-decoration: underline;
+    background-color: Transparent;
+    border: none;
+    color: #3366CC;
+}
+
+.auth-confirm-resend-btn:hover {
+    color: black;
+}

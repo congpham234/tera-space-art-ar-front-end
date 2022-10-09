@@ -1,0 +1,49 @@
+
+.gallary-info-container {
+    font-family: 'Poppins';
+    text-align: center;
+    background: #F6F5EC;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.gallary-info-edit-button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    top: 60px;
+    right: 24px;
+    box-shadow: 0px 5px 5px rgba(68, 85, 90, 0.3);
+}
+
+.gallary-info-name {
+    display: block;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.gallary-info-text {
+    display: block;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 24px;
+    padding-right: 24px;
+    line-height: 20px;
+}
+
+.gallary-info-text-align {
+    text-align: left;
+}
+
+@media (min-width: 900px) {
+    .gallary-info-text-align {
+        text-align: center;
+    }
+} 

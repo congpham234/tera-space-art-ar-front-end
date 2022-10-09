@@ -1,0 +1,85 @@
+.artwork-edit-image-container {
+    font-family: 'Poppins';
+    background: #F6F5EC;
+    height: 437px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.artwork-edit-image {
+    box-shadow: 5px 5px 5px rgba(68, 85, 90, 0.3);
+}
+
+.artwork-edit-change-image-button {
+    text-decoration: underline;
+}
+
+
+.artwork-edit-text-container {
+    padding: 25px;
+    background: white;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.artwork-edit-input-text {
+    margin-bottom: 16px;
+    width: 342px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.artwork-edit-label {
+    color:black;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+
+.artwork-edit-form {
+    text-align: left;
+}
+
+.artwork-edit-submit-btn {
+    margin-top: 16px;
+    background-color:#353231;
+    border:none;
+    color: white;
+    font-family: 'Poppins';
+    height: 45px;
+    width: 342px;
+    left: 0px;
+    top: 122px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.artwork-edit-cancel-btn {
+    margin-top: 16px;
+    background-color: white;
+    color: black;
+    border-color: black;
+    font-family: 'Poppins';
+    height: 45px;
+    width: 342px;
+    left: 0px;
+    top: 122px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.artwork-edit-file-upload-input {
+    display: none;
+}
+
+

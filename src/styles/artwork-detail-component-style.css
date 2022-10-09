@@ -1,0 +1,63 @@
+.artwork-detail-image-container {
+    font-family: 'Poppins';
+    background: #F6F5EC;
+    height: 437px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.artwork-detail-image {
+    box-shadow: 5px 5px 5px rgba(68, 85, 90, 0.3);
+}
+
+.artwork-detail-label-title {
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 3;
+}
+
+.artwork-detail-label {
+    color:black;
+    font-family: 'Poppins';
+    font-size: 14px;
+    line-height: 2.5;
+}
+
+.artwork-detail-info-container {
+    padding-left: 24px;
+}
+
+.artwork-detail-edit-button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    top: 60px;
+    right: 24px;
+    box-shadow: 0px 5px 5px rgba(68, 85, 90, 0.3);
+}
+
+.artwork-detail-back-button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    top: 60px;
+    left: 24px;
+    box-shadow: 0px 5px 5px rgba(68, 85, 90, 0.3);
+}
+
+
+
+
+
+
